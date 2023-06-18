@@ -1,0 +1,46 @@
+body{
+    background-color: rgb(238, 238, 238);
+}
+.cname {
+
+    font-family: "Rubik", sans-serif;
+    color: #023047;
+    font-size: 24px;
+
+}
+
+.chart-container{
+    width:300px;
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 50px;
+    background-color: rgb(238, 238, 238);
+}
+
+.user{
+    justify-content: center;
+    font-family: "Rubik", sans-serif;
+    display: flex;
+    align-items:center;
+    background-color: rgb(255, 255, 255);
+    width:600px;
+    height: 300px;
+    border-radius: 1pc;
+    box-shadow: 225px 225px 225px rgba(0,0,0,0.03);
+}
+
+.user:hover{
+    box-shadow: 10px 10px 54px rgba(70,62,221,0.1);
+    transform: scale(1.01);
+}
+
+ul { 
+    list-style-type: none;
+    font-family: "Rubik", sans-serif;
+    font-weight: 500; 
+    font-size: 20px;
+}
